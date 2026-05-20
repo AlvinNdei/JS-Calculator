@@ -1,6 +1,7 @@
 let button=document.getElementById('mybutton');
 button.addEventListener("click",function(){
     alert('Your info was submitted');
+    console.log("A button was clicked");
 });
 let heading=document.querySelector("h1");
 heading.addEventListener('mouseover',function(){
