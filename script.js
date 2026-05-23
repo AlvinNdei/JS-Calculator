@@ -1,7 +1,7 @@
 const display=document.getElementById("display");
 const π=3.14159;
 
-function appendToDisplay(input){
+function addToDisplay(input){
     display.value+=input;
 }
 

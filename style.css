@@ -17,7 +17,7 @@ button{
     height:54px;
     border-radius:12px;
     border:none;
-    background-color:rgb(23, 29, 201);
+    background-color:rgb(13, 15, 63);
     color:white;
     font-size:1.8rem;
     font-weight:bold;
@@ -41,17 +41,21 @@ button{
     box-sizing:border-box;
 }
 button:hover{
-    background-color:hsl(0,0%,45%);
+    background-color:hsl(226, 89%, 33%);
 }
 button:active{
-    background-color:hsl(0,0%,50%);
+    background-color:hsl(242, 84%, 50%);
 }
 .operator-btn{
-    background-color:hsl(35,100%,55%);
+    background-color:hsl(35, 83%, 19%);
 }
 .operator-btn:hover{
-    background-color:hsl(35,100%,65%);
+    background-color:hsl(35, 83%, 11%);
 }
 .operator-btn:active{
     background-color:hsl(35,100%,75%);
+}
+p{
+    color:whitesmoke;
+    text-align:center;
 }
